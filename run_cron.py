@@ -56,11 +56,11 @@ def main():
 
     # Schedule the job to run every 5 minutes
     # You can adjust this to your preferred schedule
-    schedule.every(5).minutes.do(run_agent)
+    # schedule.every(5).minutes.do(run_agent)
 
     # Alternative schedules (uncomment the one you want):
     # schedule.every(10).seconds.do(run_agent)  # Every 10 seconds (for testing)
-    # schedule.every(1).minutes.do(run_agent)   # Every minute
+    schedule.every(1).minutes.do(run_agent)   # Every minute
     # schedule.every().hour.do(run_agent)       # Every hour
     # schedule.every().day.at("10:00").do(run_agent)  # Every day at 10:00
 

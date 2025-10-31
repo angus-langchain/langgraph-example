@@ -269,7 +269,7 @@ dependencies = [
 requires-dist = [
     { name = "langchain-core", specifier = ">=1.0.2" },
     { name = "langgraph", specifier = ">=1.0.2" },
-    { name = "langsmith", specifier = ">=0.4.38" },
+    { name = "langsmith", specifier = "==0.4.39rc1" },
     { name = "nltk", specifier = ">=3.9.2" },
     { name = "python-dotenv", specifier = ">=1.2.1" },
     { name = "schedule", specifier = ">=1.2.2" },
@@ -303,7 +303,7 @@ wheels = [
 
 [[package]]
 name = "langsmith"
-version = "0.4.38"
+version = "0.4.39rc1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "httpx" },
@@ -314,9 +314,9 @@ dependencies = [
     { name = "requests-toolbelt" },
     { name = "zstandard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/37/21/f1ba48412c64bf3bb8feb532fc9d247b396935b5d8242332d44a4195ec2d/langsmith-0.4.38.tar.gz", hash = "sha256:3aa57f9c16a5880256cd1eab0452533c1fb5ee14ec5250e23ed919cc2b07f6d3", size = 942789, upload-time = "2025-10-23T22:28:20.458Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d5/ee/681ac218a1e3bf85e90f0022725fd126ecbf9412ca68bd288740f4ac7dec/langsmith-0.4.39rc1.tar.gz", hash = "sha256:afb0959efe65a257c28d51cc7f8d715a973480dba07145a483704fb16df4a7dc", size = 943031, upload-time = "2025-10-31T00:29:06.033Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b4/2b/7e0248f65e35800ea8e4e3dbb3bcc36c61b81f5b8abeddaceec8320ab491/langsmith-0.4.38-py3-none-any.whl", hash = "sha256:326232a24b1c6dd308a3188557cc023adf8fb14144263b2982c115a6be5141e7", size = 397341, upload-time = "2025-10-23T22:28:18.333Z" },
+    { url = "https://files.pythonhosted.org/packages/38/3a/f057fc5bd419ad2c34f01fdc3e489b2da3f7f7d2cdb4c53b2710b2f4e757/langsmith-0.4.39rc1-py3-none-any.whl", hash = "sha256:7394c0081589523586c4e6714b41090625e87a01bc3d3755f8d242e03dab5b39", size = 397477, upload-time = "2025-10-31T00:29:04.229Z" },
 ]
 
 [[package]]
