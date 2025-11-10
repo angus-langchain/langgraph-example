@@ -29,10 +29,18 @@ data_sizes = [
     3500,
     5000,
     8000,
-    10000,
+    12000,
+    15566,
+    20000,
+    50000,
+    100000,
+    200000,
+    364318,
+    400000,
+    500000,
 ]
 
-ITERATIONS = 2
+ITERATIONS = 10
 
 # Pre-generate data arrays with random words
 data_array = [" ".join(random.choices(word_list, k=(size // 5))) for size in data_sizes]
